@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Réservation de salle de coiffure</title>
+	<link rel="stylesheet" type="text/css" href="reserve_css.css">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Réservation de salle de coiffure</legend>
+		
+			  <label for="nom">Nom :</label>
+			  <input type="text" id="nom" name="nom" required><br><br>
+
+			   <label for="prenom">Prénom :</label>
+			  <input type="text" id="prenom" name="prenom" required><br><br>
+
+			  <label for="email">E-mail :</label>
+			  <input type="email" id="email" name="email" required><br><br>
+
+			  <label for="date">Date :</label>
+			  <input type="date" id="date" name="date" required><br><br>
+
+			  <label for="heure">Heure :</label>
+			  <input type="time" id="heure" name="heure" required><br><br>
+
+			  <label for="duree">Durée :</label>
+			  <input type="number" id="duree" name="duree" min="1" max="8" required><br><br>
+			  <div class="image-container">
+			  	<img src="image.jfif" alt="image.jfif">
+			  </div>
+
+
+			  <input type="submit" value="Réserver">
+			  <button type="reset" value="Annuler">Annuler</button>
+	    </fieldset>
+	</form>
+
+</body>
+</html>
