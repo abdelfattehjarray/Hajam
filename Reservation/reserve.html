@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="reserve_css.css">
 </head>
 <body>
-	<form>
+	<form method="post" action="reserve_css.php">
 		<fieldset>
 			<legend>Réservation de salle de coiffure</legend>
 		
@@ -25,7 +25,8 @@
 			  <input type="time" id="heure" name="heure" required><br><br>
 
 			  <label for="duree">Durée :</label>
-			  <input type="number" id="duree" name="duree" min="1" max="8" required><br><br>
+			  <input type="number" id="duree" name="duree" min="1" max="60" required><br><br>
+			  
 			  <div class="image-container">
 			  	<img src="image.jfif" alt="image.jfif">
 			  </div>
